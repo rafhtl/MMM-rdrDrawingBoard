@@ -20,7 +20,7 @@ To use this module, add the following configuration block to the modules array i
             height: "630px", // these have to be the same as .MMM-rdrDrawingBoard .canvas otherwise will not work!
             lineColor: "#FFFFFF", // the line color of the chalk
             lineSize: 7, // the line size of the chalk
-            orientation: "landscape", //non need for this orientation is established by CSS configuration
+            orientation: "landscape", //no need for this: orientation is established by CSS configuration
             smoothing: 0.55, //tweak smoothing - higher values make the drawings look much better, lower values make drawing feel a bit                                more responsive. Set to 0.85 by default.
             mode: "draw", //draw, fill, erase
             imgfileUrl: "modules/MMM-rdrDrawingBoard/public/blackboard01.png" //background for the blackboard

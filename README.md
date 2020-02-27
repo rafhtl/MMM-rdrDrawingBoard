@@ -7,6 +7,7 @@ Installing the module
 To install the module, assuming you have MagicMirror installed with the default configuration:
 
 cd ~/MagicMirror/modules
+
 git clone https://github.com/rafhtl/MMM-rdrDrawingBoard.git
 
 Using the module

@@ -11,6 +11,7 @@ cd ~/MagicMirror/modules
 git clone https://github.com/rafhtl/MMM-rdrDrawingBoard.git
 
 Using the module
+
 To use this module, add the following configuration block to the modules array in the config/config.js file:
 {
         

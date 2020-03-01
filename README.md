@@ -31,6 +31,23 @@ To use this module, add the following configuration block to the modules array i
            }
     },
 
-
+Please note that the css is based on vertical rotation (custom.css) NOT screen rotation (config.txt)
+/* vertical */
+body {
+	margin: 0;
+	position: absolute;
+ 	transform: rotate(-90deg);
+ 	transform-origin: top left; 
+	width: 100vh;
+	height: 100vw;
+	
+	object-fit: cover;
+	top: 100vh;
+        visibility: visible;  
+    
+    
+ }
+ 
+you can change this to horizontal by tweeking the css. Please share your design, thank you.
 
 thank you Philip Sturgeon me@philsturgeon.uk for atrament.js original code.

@@ -4,6 +4,7 @@ This is a module for the MagicMirror².
 
 
 Installing the module
+
 To install the module, assuming you have MagicMirror installed with the default configuration:
 
 cd ~/MagicMirror/modules

@@ -24,7 +24,11 @@ defaults: {
 
     getStyles: function()
     {
-    return ["MMM-rdrDrawingBoard.css"];
+        if (this.config.orientation=="portrait") {
+            return ["MMM-rdrDrawingBoard_portrait.css"];
+        }else{
+            return ["MMM-rdrDrawingBoard_landscape.css"];
+        }
     },
     getScripts: function() {
         return ["atrament.min.js"];

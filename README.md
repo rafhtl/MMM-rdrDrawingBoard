@@ -31,8 +31,8 @@ To use this module, add the following configuration block to the modules array i
         module: 'MMM-rdrDrawingBoard',
         position: 'fullscreen_below',
         config: {
-            width: "900px", // 'px' or '%' or valid value for CSS dimensions units. "900px" portrait - "995px" landscape
-            height: "630px", // these have to be the same as .MMM-rdrDrawingBoard .canvas "630px" portrait - 565px landscape
+            width: "900px", // these have to be the same as .MMM-rdrDrawingBoard .canvas  - "900px" portrait - "995px" landscape
+            height: "630px", // these have to be the same as .MMM-rdrDrawingBoard .canvas -  "630px" portrait - 565px landscape
             lineColor: "#FFFFFF",
             lineSize: 7,
             orientation: "portrait", //landscape or portrait

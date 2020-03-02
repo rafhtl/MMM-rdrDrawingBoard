@@ -2,6 +2,12 @@
 
 This is a module for the MagicMirror².
 
+A magicmirror module to draw free hand with a touch screen. 
+-works portrait or landscape
+-pen color
+-draw, erase, fill
+-clear button
+
 ![DrawingBoard](rdrDrawingBoard.jpg)
 
 ## Installing the module

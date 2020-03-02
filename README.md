@@ -52,6 +52,6 @@ body {
  }
 ```
  
-you can change this to horizontal by  specifyin orientation: "landscape" and using the orientation: "portrait". Please share your design, thank you.
+you can change this to horizontal by  specifying orientation: "landscape" and using the css MMM-rdrDrawingBoard_landscape.css. Please share your design, thank you.
 
 thank you Philip Sturgeon for atrament.js original code.

@@ -33,7 +33,8 @@ To use this module, add the following configuration block to the modules array i
     },
 
 Please note that the portrait css is based on vertical rotation (custom.css) NOT screen rotation (config.txt)
-/* vertical */
+
+
 body {
 	margin: 0;
 	position: absolute;
@@ -41,7 +42,6 @@ body {
  	transform-origin: top left; 
 	width: 100vh;
 	height: 100vw;
-	
 	object-fit: cover;
 	top: 100vh;
     visibility: visible;  

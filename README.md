@@ -1,9 +1,9 @@
-MMM-rdrDrawingBoard
+# MMM-rdrDrawingBoard
 
 This is a module for the MagicMirror².
 
 
-Installing the module
+## Installing the module
 
 To install the module, assuming you have MagicMirror installed with the default configuration:
 
@@ -11,10 +11,10 @@ cd ~/MagicMirror/modules
 
 git clone https://github.com/rafhtl/MMM-rdrDrawingBoard.git
 
-Using the module
+## Using the module
 
 To use this module, add the following configuration block to the modules array in the config/config.js file:
-
+```
 {
         module: 'MMM-rdrDrawingBoard',
         position: 'fullscreen_below',
@@ -32,10 +32,11 @@ To use this module, add the following configuration block to the modules array i
 
            }
     },
+   ```
 
 Please note that the portrait css is based on vertical rotation (custom.css) NOT screen rotation (config.txt)
 
-
+```
 body {
 	margin: 0;
 	position: absolute;
@@ -49,7 +50,8 @@ body {
     
     
  }
+```
  
 you can change this to horizontal by  specifyin orientation: "landscape" and using the orientation: "portrait". Please share your design, thank you.
 
-thank you Philip Sturgeon me@philsturgeon.uk for atrament.js original code.
+thank you Philip Sturgeon for atrament.js original code.

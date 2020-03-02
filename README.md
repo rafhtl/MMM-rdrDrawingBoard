@@ -2,6 +2,7 @@
 
 This is a module for the MagicMirror².
 
+![DrawingBoard](rdrDrawingBoard.jpg)
 
 ## Installing the module
 

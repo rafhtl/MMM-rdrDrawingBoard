@@ -16,7 +16,7 @@ defaults: {
             orientation: "landscape", //non need for this
             smoothing: 0.55, //tweak smoothing - higher values make the drawings look much better, lower values make drawing feel a bit more responsive. Set to 0.85 by default.
             mode: "draw", //draw, fill
-            imgfileUrl: "modules/MMM-rdrDrawingBoard/public/blackboard01.png" //background
+            imgfileUrl: "modules/MMM-rdrDrawingBoard/blackboard01.png" //background
 
   },
 

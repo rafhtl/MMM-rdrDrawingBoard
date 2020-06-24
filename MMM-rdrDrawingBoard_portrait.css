@@ -7,33 +7,21 @@
     position: absolute;
     border:0px solid #62FF00; /*green*/
     border-radius:0px; 
-    z-index: 249;
+    z-index: 10000002;
  	
+    top:130px;
+    left: 60px;
+    right: 0px;
+    width:705px;
+    height:1132px;
     
     
-    top: 200px;
-    bottom:0px;
-    right:0px;
-    left:60px;
-    width: 718px;
-	height: 1000px;
 }
 
 
 
 
-.MMM-rdrDrawingBoard .buttons {
-    
-    border:0px solid #337DFF; /*blue*/
-    border-radius:0px; 
-    position: absolute;
-    top: 905px;
-    bottom:0px;
-    right:0px;
-    left:0px;
-    width: 714px;
-	height: 50px;
-}
+
 
 .MMM-rdrDrawingBoard .canvas {
     border:0px solid #FFFFFF ; /*white*/ 
@@ -42,11 +30,33 @@
  	transform-origin: bottom left; 
     position: absolute;
     
-    width: 900px;
-	height: 630px;
-    left: 41px;
+    width: 1055px;
+    
+	height: 635px;
+    top: -590px;
+    
     right: 0px;
-    top: -630px;
+    left: 41px;
+}
+
+.MMM-rdrDrawingBoard .buttons {
+    
+    border:0px solid #337DFF; /*blue*/
+    border-radius:0px; 
+    position: absolute;
+    top: 1110px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    width: 714px;
+	height: 50px;
+}
+.MMM-rdrDrawingBoard .blackboard_img {
+    position: absolute; 
+    width: 844px;
+    height: 1295px;
+    top: -79px;
+    left: -62px;
 }
 .MMM-rdrDrawingBoard .button01 {
     
@@ -66,13 +76,7 @@
   
   
 }
-.MMM-rdrDrawingBoard .blackboard_img {
-    position: absolute; 
-    width: 840px;
-    height: 1095px;
-    top: -100px;
-    left: -62px;
-}
+
 
 .MMM-rdrDrawingBoard .blackboard_img img {
     width: inherit;

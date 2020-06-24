@@ -1,17 +1,6 @@
 # MMM-rdrDrawingBoard
-
+rafHTL
 This is a module for the MagicMirror².
-
-A magicmirror module to draw free hand with a touch screen. 
-
--works portrait or landscape
-
--pen color
-
--draw, erase, fill
-
--clear button
-
 
 ![DrawingBoard](rdrDrawingBoard.jpg)
 
@@ -31,14 +20,14 @@ To use this module, add the following configuration block to the modules array i
         module: 'MMM-rdrDrawingBoard',
         position: 'fullscreen_below',
         config: {
-            width: "900px", // these have to be the same as .MMM-rdrDrawingBoard .canvas  - "900px" portrait - "995px" landscape
-            height: "630px", // these have to be the same as .MMM-rdrDrawingBoard .canvas -  "630px" portrait - 565px landscape
+            width: "900px", // 'px' or '%' or valid value for CSS dimensions units. "900px" portrait - "995px" landscape
+            height: "630px", // these have to be the same as .MMM-rdrDrawingBoard .canvas "630px" portrait - 565px landscape
             lineColor: "#FFFFFF",
             lineSize: 7,
             orientation: "portrait", //landscape or portrait
             smoothing: 0.55, //tweak smoothing - higher values make the drawings look much better, lower values make drawing feel a bit more responsive. Set to 0.85 by default.
             mode: "draw", //draw, fill
-            imgfileUrl: "modules/MMM-rdrDrawingBoard/blackboard01.png" //background
+            imgfileUrl: "modules/MMM-rdrDrawingBoard/public/blackboard01.png" //background
 
             
 

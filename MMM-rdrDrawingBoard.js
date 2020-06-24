@@ -9,14 +9,14 @@ Module.register("MMM-rdrDrawingBoard", {
 defaults: {
 
     
-            width: "900px", // 'px' or '%' or valid value for CSS dimensions units.
-            height: "680px", // these have to be the same as .MMM-rdrDrawingBoard .canvas
+            width: "1055px", // 'px' or '%' or valid value for CSS dimensions units. "900px" portrait - "995px" landscape
+            height: "635px", // these have to be the same as .MMM-rdrDrawingBoard .canvas "630px" portrait - 565px landscape
             lineColor: "#FFFFFF",
             lineSize: 6,
             orientation: "landscape", //non need for this
             smoothing: 0.55, //tweak smoothing - higher values make the drawings look much better, lower values make drawing feel a bit more responsive. Set to 0.85 by default.
             mode: "draw", //draw, fill
-            imgfileUrl: "modules/MMM-rdrDrawingBoard/blackboard01.png" //background
+            imgfileUrl: "modules/MMM-rdrDrawingBoard/public/blackboard01.png" //background
 
   },
 
